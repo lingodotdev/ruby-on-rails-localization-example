@@ -1,0 +1,55 @@
+<section class="hero">
+  <span class="badge"><%= t("app.badge") %></span>
+  <h1><%= t(".hero.title") %></h1>
+  <p class="hero-description"><%= t(".hero.description") %></p>
+</section>
+
+<aside class="callout">
+  <%= t(".callout") %>
+</aside>
+
+<h2 class="sections-title"><%= t(".sections.title") %></h2>
+
+<div class="cards">
+  <article class="card">
+    <span class="eyebrow"><%= t(".cards.rails.eyebrow") %></span>
+    <h3><%= t(".cards.rails.title") %></h3>
+    <p><%= t(".cards.rails.body") %></p>
+    <pre><code>config/locales/
+  en.yml      <span class="comment"># source</span>
+  es.yml      <span class="comment"># generated</span>
+  fr.yml      <span class="comment"># generated</span>
+  de.yml      <span class="comment"># generated</span></code></pre>
+  </article>
+
+  <article class="card">
+    <span class="eyebrow"><%= t(".cards.interpolation.eyebrow") %></span>
+    <h3><%= t(".cards.interpolation.title") %></h3>
+    <p><%= t(".cards.interpolation.body") %></p>
+    <div class="demo">
+      <div class="demo-row"><%= t(".cards.interpolation.greeting", name: @user_name) %></div>
+      <div class="demo-row"><%= t("notifications.unread", count: @unread_count) %></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <span class="eyebrow"><%= t(".cards.config.eyebrow") %></span>
+    <h3><%= t(".cards.config.title") %></h3>
+    <p><%= t(".cards.config.body") %></p>
+    <pre><code>{
+  "locale": {
+    "source": "en",
+    "targets": ["es", "fr", "de"]
+  },
+  "buckets": {
+    "yaml-root-key": {
+      "include": ["config/locales/[locale].yml"]
+    }
+  }
+}</code></pre>
+  </article>
+</div>
+
+<footer class="page-footer">
+  <%= link_to t("footer.guide"), "https://lingo.dev/en/guides/ruby-on-rails-localization" %>
+</footer>

@@ -1,0 +1,23 @@
+version: 1
+checksums:
+  38afd12c00af3bb9adecece9d72396ec:
+    app/title: cde34c13e39fb40107f58d2c5fc68cee
+    app/badge: 63c849d0ed6c178808d5fd74839316bd
+    home/index/hero/title: 287649f708930f27f1b19ffae382e818
+    home/index/hero/description: 4633d981ceff35e9faebfed4ff8a9274
+    home/index/callout: cd4098c68ee34825c74f5f08a04d154c
+    home/index/sections/title: b06043ac3f540590bccdbf06feb306be
+    home/index/cards/rails/eyebrow: bce1f7d51102606839aef4a212be6c48
+    home/index/cards/rails/title: fcab34181b2ea83398b5963cef66605e
+    home/index/cards/rails/body: 872f1cb31864cf922eb302f2cbaf7050
+    home/index/cards/interpolation/eyebrow: caedb9fbf2561f1cc9c8a43c0c0f0f75
+    home/index/cards/interpolation/title: 28f854fc9521f4bd489fb0c955dda54e
+    home/index/cards/interpolation/body: 2aeacd53d85dfb1cac0ca65c35b82a42
+    home/index/cards/interpolation/greeting: b69af132f56af89c8971d9b1e6a8073d
+    home/index/cards/config/eyebrow: 307099c62b17ca01597fc01c2fa7b9f6
+    home/index/cards/config/title: ec0111ec6cf6d87e0e85aa1a3c9a0411
+    home/index/cards/config/body: 56ffdf3a18520ada0b4c7da58453f3db
+    notifications/unread/zero: 21a0465a694f14d4ac24d157a3f5113d
+    notifications/unread/one: 20c895562ee8bc33ff57a209abe14be7
+    notifications/unread/other: ca3dd2f47eed3097bead2b57cc8d6c3e
+    footer/guide: ddfa730d086fa041996df65437e45867

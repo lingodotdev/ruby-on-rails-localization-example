@@ -1,0 +1,33 @@
+es:
+  app:
+    title: "Rails × Lingo"
+    badge: "Rails 7 + Lingo.dev"
+  home:
+    index:
+      hero:
+        title: "Autoriza una vez en YAML, publica en todos los idiomas."
+        description: "Una aplicación Rails de ejemplo que autoriala UI en archivos YAML dentro de config/locales y las traduce mediante Lingo."
+      callout: "Esta página está escrita en YAML y traducida al español, francés y alemán por Lingo. Usa el selector de idioma de arriba para comparar."
+      sections:
+        title: "Construido con tres piezas"
+      cards:
+        rails:
+          eyebrow: "Rails i18n"
+          title: "Integrado en el framework"
+          body: "Las traducciones viven en YAML plano bajo config/locales. Rails las lee al iniciar. Sin SDK en tiempo de ejecución, sin dependencias extra."
+        interpolation:
+          eyebrow: "Interpolación y plurales"
+          title: "Funcionalidades reales de i18n"
+          body: "Pasa argumentos a las traducciones. Pasa un número y Rails elige automáticamente la forma plural correcta."
+          greeting: "¡Bienvenido, %{name}!"
+        config:
+          eyebrow: "Lingo.dev"
+          title: "Una configuración, todos los idiomas"
+          body: "Apunta Lingo a tus archivos YAML, ejecuta un comando y todos los locales objetivo se mantienen sincronizados."
+  notifications:
+    unread:
+      zero: "Sin notificaciones sin leer"
+      one: "1 notificación sin leer"
+      other: "%{count} notificaciones sin leer"
+  footer:
+    guide: "Lee el tutorial completo →"
