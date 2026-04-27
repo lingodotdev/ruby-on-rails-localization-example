@@ -38,13 +38,13 @@ bundle install
 bin/rails server
 ```
 
-Open `http://localhost:3000` — visit `/en`, `/es`, `/fr`, or `/de` to switch locale.
+Open `http://localhost:3000` – visit `/en`, `/es`, `/fr`, or `/de` to switch locale.
 
 To translate locally:
 
 ```bash
-export LINGO_API_KEY="your-api-key"
-npx lingo.dev@latest run
+npm install -g lingo.dev
+lingo.dev run
 ```
 
 ## Links
