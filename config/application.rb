@@ -6,7 +6,7 @@ require "action_view/railtie"
 
 Bundler.require(*Rails.groups)
 
-module RailsLocalizationExample
+module RubyOnRailsLocalizationExample
   class Application < Rails::Application
     config.load_defaults 7.2
 

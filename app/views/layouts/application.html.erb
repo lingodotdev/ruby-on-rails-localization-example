@@ -166,7 +166,7 @@
       <div class="wordmark"><%= t("app.title") %></div>
       <nav class="lang-switcher">
         <% I18n.available_locales.each do |locale| %>
-          <%= link_to locale.upcase, url_for(locale: locale), class: (I18n.locale == locale ? "active" : nil) %>
+          <%= link_to locale.upcase, url_for(locale: locale), class: ("active" if I18n.locale == locale) %>
         <% end %>
       </nav>
     </header>
